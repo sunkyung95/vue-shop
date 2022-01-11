@@ -1,9 +1,21 @@
 <template>
-  <div>product list</div>
+  <div>
+    <PListCategoryName></PListCategoryName>
+    <PListProducts></PListProducts>
+  </div>
 </template>
 
 <script>
-export default {};
+import PListCategoryName from "@/components/productList/PListCategoryName.vue";
+import PListProducts from "@/components/productList/PListProducts.vue";
+
+export default {
+  name: "ProductList",
+  components: {
+    PListCategoryName,
+    PListProducts
+  }
+};
 </script>
 
 <style>
