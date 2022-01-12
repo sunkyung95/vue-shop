@@ -1,10 +1,30 @@
 <template>
   <div id="PListProducts">
-    <div class="PList-product">
+    <span class="PList-product">
       <div class="PList-img">제품사진</div>
       <div>name</div>
       <div>price</div>
-    </div>
+    </span>
+    <span class="PList-product">
+      <div class="PList-img">제품사진</div>
+      <div>name</div>
+      <div>price</div>
+    </span>
+    <span class="PList-product">
+      <div class="PList-img">제품사진</div>
+      <div>name</div>
+      <div>price</div>
+    </span>
+    <span class="PList-product">
+      <div class="PList-img">제품사진</div>
+      <div>name</div>
+      <div>price</div>
+    </span>
+    <span class="PList-product">
+      <div class="PList-img">제품사진</div>
+      <div>name</div>
+      <div>price</div>
+    </span>
   </div>
 </template>
 
@@ -15,12 +35,10 @@ export default {
 </script>
 
 <style>
-#PListProducts {
-  padding: 100px;
-}
 .PList-product {
-    background: red;
-    
+  background: red;
+  float: left;
+  margin: 50px
 }
 .PList-img {
   height: 300px;

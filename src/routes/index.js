@@ -15,8 +15,16 @@ export const router = new VueRouter({
       component: () => import("@/views/Main"),
     },
     {
+      path: "/login",
+      component: () => import("@/views/Login"),
+    },
+    {
       path: "/products",
       component: () => import("@/views/ProductList"),
+    },
+    {
+      path: "/cart",
+      component: () => import("@/views/ProductCart"),
     },
     {
       path: "/profile",

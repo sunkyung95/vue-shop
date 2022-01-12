@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header></Header>
-    <router-view></router-view>
+    <div id="content">
+      <router-view></router-view>
+    </div>
     <Footer></Footer>
   </div>
 </template>
@@ -20,4 +22,8 @@ export default {
 </script>
 
 <style>
+#content {
+  height: 1300px;
+  background: gray;
+}
 </style>
