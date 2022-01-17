@@ -1,6 +1,6 @@
 <template>
-  <div id="logo">
-    <b-navbar-brand @click="goMain()">Shop</b-navbar-brand>
+  <div id="logo" class="navbar-brand" @click="goMain()">
+    shop
   </div>
 </template>
 

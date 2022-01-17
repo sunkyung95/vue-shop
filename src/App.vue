@@ -23,7 +23,7 @@ export default {
 
 <style>
 #content {
-  height: 1300px;
+  height: 100%;
   background: gray;
 }
 </style>
