@@ -24,6 +24,8 @@ export default {
 <style>
 #content {
   height: 100%;
+  width: 100%;
   background: gray;
+  display: inline-block;
 }
 </style>
