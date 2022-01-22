@@ -14,8 +14,8 @@
     <button type="button" class="btn btn-dark form-control">로그인</button>
 
     <div id="showIdPwdDiv" class="row">
-      <a href="#" class="small link-dark fw-bold">아이디 찾기</a>
-      <a href="#" class="small link-dark fw-bold">비밀번호 찾기</a>
+      <a href="#" class="small link-dark fw-bold" @click="goFindId()">아이디 찾기</a>
+      <a href="#" class="small link-dark fw-bold" @click="goFindPass()">비밀번호 찾기</a>
     </div>
   </div>
 </template>
@@ -23,7 +23,14 @@
 <script>
 export default {
   name: "Login",
-  methods: {},
+  methods: {
+    goFindId() {
+      this.$router.push("/findId");
+    },
+    goFindPass() {
+      this.$router.push("/findPass");
+    }
+  },
 };
 </script>
 

@@ -3,7 +3,8 @@
     <div id="loginCard2" class="col-lg-6 col-xl-4">
       <div class="card mb-5 mb-xl-0">
         <div class="card-body p-5">
-          <LoginForm></LoginForm>
+          <!-- <LoginForm></LoginForm> -->
+          <router-view></router-view>
         </div>
       </div>
     </div>
@@ -11,12 +12,12 @@
 </template>
 
 <script>
-import LoginForm from "@/components/Login/LoginForm.vue";
+// import LoginForm from "@/components/Login/LoginForm.vue";
 
 export default {
   name: "Login",
   components: {
-    LoginForm,
+    // LoginForm,
   },
 };
 </script>

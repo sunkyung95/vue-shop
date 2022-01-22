@@ -17,6 +17,20 @@ export const router = new VueRouter({
     {
       path: "/login",
       component: () => import("@/views/Login"),
+      children: [
+        {
+          path: "/",
+          component: () => import("@/components/Login/LoginForm")
+        },
+        {
+          path: "/findId",
+          component: () => import("@/components/Login/FindIdForm")
+        },
+        {
+          path: "/findPass",
+          component: () => import("@/components/Login/FindPassForm")
+        }
+      ]
     },
     {
       path: "/products",
