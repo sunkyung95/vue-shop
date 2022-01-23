@@ -92,11 +92,15 @@ export default {
 
 <style>
 #productList1 {
-  display: inline-block;
+  /* display: inline-block; */
   width: 100%;
+  display:flex;
+  
 }
 #productList2 {
   margin: 50px;
+    display:flex;
+  justify-content: space-evenly;
 }
 .productCard {
   margin: 30px;
