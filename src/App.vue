@@ -25,7 +25,7 @@ export default {
 #content {
   height: 100%;
   width: 100%;
-  background: gray;
+  /* background: gray; */
   display: inline-block;
 }
 </style>

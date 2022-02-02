@@ -25,10 +25,10 @@ export default {
   name: "Login",
   methods: {
     goFindId() {
-      this.$router.push("/findId");
+      this.$router.push("/login/findId");
     },
     goFindPass() {
-      this.$router.push("/findPass");
+      this.$router.push("/login/findPass");
     }
   },
 };

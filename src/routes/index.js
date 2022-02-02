@@ -37,6 +37,10 @@ export const router = new VueRouter({
       component: () => import("@/views/ProductList"),
     },
     {
+      path: "/productDetail",
+      component: () => import("@/views/ProductDetail"), 
+    },
+    {
       path: "/cart",
       component: () => import("@/views/ProductCart"),
     },
